@@ -26,12 +26,11 @@
         </nav>
     </header>
     <main>
-        <section class="Banner" id="home">
-
-            <div class="banner-div">
+        <section class="Banner crosshair" id="home">
+            <div class="banner-div link-effect-14">
                 <p>Oi sou o Rogerio</p>
-                <h1>FRONT-END</h1>
-                <a href="#sobre">SOBRE</a>
+                <h1>FRONT END</h1>
+                <a href="#sobre"><span>SOBRE</span></a>
             </div>
             <div>
                 <img src="assets/img/Group 1barras.png" alt="Barras" class="bannerimg">
@@ -43,7 +42,7 @@
             <h1>ROGERIO RODRIGUES BENEVIDES FILHO</h1>
 
             <div class="sobre-div">
-                <p>Descrição</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At enim autem iure distinctio. Neque aliquam dolor veritatis voluptas optio architecto distinctio dolorum quam perspiciatis laboriosam. Voluptas consequuntur quae esse obcaecati quo adipisci ratione exercitationem natus omnis delectus assumenda tenetur reiciendis modi minus, possimus accusamus distinctio similique, consectetur, soluta nisi eligendi amet minima ut? Repellat, modi aut facilis nulla autem amet accusantium eligendi nam eum, blanditiis, voluptas fuga impedit. Sunt quibusdam sit explicabo quisquam corporis provident? In doloremque deserunt, quod voluptas quos esse quasi, excepturi perferendis dolor, quas earum? Corrupti quae et illum debitis nesciunt vero velit cum ipsam explicabo repellat?</p>
 
                 <img src="assets/img/Group 2Quadrados.png" alt="Quadrados roxos" width="500" height="500">
             </div>
@@ -51,7 +50,17 @@
         </section>
 
         <section class="trabalhos" id="trabalhos">
+            <div class="trab-div">
+                
+                <div class="trab-div2">
+                    <img src="assets/img/Group 3.png" alt="barras" width="50" height="50">
+                    <h1>TRABALHOS FEITOS</h1>
+                </div>
 
+                <a href="">TODOS</a>
+            </div>
+
+            <!-- trabalhos -->
         </section>
     </main>
     <footer>
@@ -59,7 +68,6 @@
             <div class="footer-icons">
                 <i class="fa-brands fa-instagram"><a href="#"></a></i>
                 <i class="fa-brands fa-bluesky"><a href="#"></a></i>
-                
             </div>
             <p>© 2024 Rogerio Filho, All rights reserved.</p>
         </div>

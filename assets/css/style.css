@@ -15,22 +15,126 @@ nav h1{color: #fff}
 .nav-itens:hover{ color: var(--cor4);}
 
 
+.crosshair {
+    .link-effect-14 {
+       a {
+          color: var(--cor3);
+          padding: 10px 20px;
+          position: relative;
+          overflow: hidden;
+          display: inline-block;
+          transition: .3s ease-out;
+          span{
+             &::before{
+                width: 5px;
+                height: 5px;
+                background: transparent;
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                border-top: 2px solid var(--cor1) ;
+                border-left: 2px solid  var(--cor1);
+                transition: .3s;
+                opacity: 0;
+             }
+             &::after{
+                width: 5px;
+                height: 5px;
+                background: transparent;
+                content: "";
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                border-right: 2px solid  var(--cor1);
+                border-bottom: 2px solid  var(--cor1);
+                transition: .3s;
+                opacity: 0;
+ 
+             }
+          }
+          &::before {
+             width: 5px;
+             height: 5px;
+             background: transparent;
+             content: "";
+             position: absolute;
+             right: 0;
+             top: 0;
+             border-right: 2px solid  var(--cor1);
+             border-top: 2px solid  var(--cor1);
+             transition: .3s;
+             opacity: 0;
+          }
+          &::after {
+             width: 5px;
+             height: 5px;
+             background: transparent;
+             content: "";
+             position: absolute;
+             left: 0;
+             bottom: 0;
+             border-left: 2px solid var(--cor1);
+             border-bottom: 2px solid var(--cor1);
+             transition: .3s;
+             opacity: 0;
+          }
+          &:hover{  
+             color:  var(--cor3);
+             &::before{
+                opacity: 1;
+                right: 5px;
+                top: 5px;
+             }
+             &::after{
+                opacity: 1;
+                left: 5px;
+                bottom: 5px;
+             }
+             span{
+                &::before{
+                   opacity: 1;
+                   left: 5px;
+                   top: 5px;
+                }
+                &::after{
+                   opacity: 1;
+                   right: 5px;
+                   bottom: 5px;
+                }
+             }
+          }
+       }
+    }
+ }
+
 main{background-color: var(--cor7);}
 
 .Banner{height: 90vh; max-width: 100%; display: flex; align-items: center; justify-content: space-between;}
 .banner-div{margin-left: 30px;}
 .banner-div p{color: var(--cor3); font-size: 2em;}
 .banner-div h1{color: var(--cor4); font-size: 5em; margin-bottom: 50px;}
-.banner-div a{color: #fff; background-color: #00607e; padding: 20px 60px; box-shadow: 0px 4px 80.9px 37px rgba(255, 255, 255, 0.07); border-radius: 20px; transition: .1s;}
-.banner-div a:hover{ padding: 25px 65px; background-color: #1e1555;}
+.banner-div a{padding: 20px 60px; font-size: 1.6rem; background-color: var(--cor1); transition: .3s;}
+.banner-div a:hover{font-size: 2rem; background-color: #00000000;}
 .bannerimg{}
 
 .sobre{height: 100vh; max-width: 100%;}
 
-.sobre h1{color: #fff; font-size: 3em; padding: 90px 30px;}
+.sobre h1{color: #fff; font-size: 2.8em; padding: 80px 30px;}
 .sobre-div{ display: flex; justify-content: space-between;}
-.sobre-div p{color: var(--cor3);margin-left: 60px; font-size: 1.5em; border-left: #fff solid 2px; padding-left: 20px;}
+.sobre-div p{color: var(--cor3);margin-left: 60px; font-size: 1.5em; border-left: #fff solid 2px; padding-left: 20px; min-height: 300px; text-align: justify;}
 .sobre-div img{display: flex;}
+
+.trabalhos{height: 100vh; max-width: 100%;}
+.trab-div{display: flex; justify-content: space-between; align-items: center;}
+.trab-div2{display: flex; align-items: center; color: #FFF; margin-inline: 20px;}
+.trab-div2 h1{font-size: 2rem;}
+.trab-div a{margin-inline: 40px; padding: 10px; background-color: var(--cor1); transition: .2s; border-radius: 10px; box-shadow: 10px 10px 0px 0px rgba(33,33,33,1), 20px 20px 0px 0px rgba(33,33,33,0.7), 30px 30px 0px 0px rgba(33,33,33,0.4), 40px 40px 0px 0px rgba(33,33,33,0.1); font-size: 1.5rem;}
+.trab-div a:hover{padding: 15px; background-color: var(--cor2);}
+
+
+
+
 
 footer{background-color: var(--cor2); color: #fff; text-align: center;}
 .footer-container{display: flex; height: 150px; flex-direction: column; justify-content: space-around;}
@@ -39,6 +143,29 @@ footer{background-color: var(--cor2); color: #fff; text-align: center;}
 
 .fa-bluesky:hover, .fa-instagram:hover{color: var(--cor4); cursor: pointer;}
 .footer-icons{display: flex; justify-content: center;}
+
+
+
+
+/* @media (max-width: 1150px) {
+    .sobre-div{ display: flex;}
+    .sobre-div p{font-size: 1.3em;}
+    
+}
+
+@media (max-width: 1000px) {
+    .sobre h1{color: #fff; font-size: 2.8em; padding: 80px 30px;}
+    .sobre-div{display: flex;}
+    .sobre-div p{font-size: 1.1em; min-height: fit-content; max-width: 700px; margin: auto;}
+    .sobre-div img{display: none;}
+    
+}
+
+@media (max-width: 800px) {
+    .sobre-div{display: flex;}
+    .sobre-div p{font-size: .9em; min-height: 300px; max-width: 700px; margin: auto;}
+    .sobre-div img{display: none;}
+} */
 
 
 :root{
