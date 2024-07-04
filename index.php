@@ -16,7 +16,7 @@
         <nav>
             <div class="container">
                 <div class="nav-container">
-                    <h1 class="nav-title"><a href="index.php">ROGERIO FILHO</a></h1>
+                    <h1 class="nav-title"><a href="index.php">PORTIFÓLIO</a></h1>
                     <div>
                         <a href="#home" class="nav-itens">Home</a>
                         <a href="#sobre" class="nav-itens">Sobre</a>
@@ -31,77 +31,96 @@
         <section class="container">
             <section class="Banner crosshair" id="home">
                 <article class="banner-div link-effect-14">
-                    <p>Oi sou o Rogerio</p>
-                    <h1>FRONT END</h1>
+                    <p>Oi sou o Rogerio,</p>
+                    <h1>Desenvolvedor <br>FRONT END</h1>
                     <a href="#sobre"><span>SOBRE</span></a>
                 </article>
-                <figure>
-                    <img src="assets/img/Group 1barras.png" alt="Barras" class="bannerimg">
-                </figure>
-
             </section>
         </section>
 
         <section class="container">
             <section class="sobre" id="sobre">
-                <h1>ROGERIO RODRIGUES BENEVIDES FILHO</h1>
+                <h1>SOBRE MIM</h1>
 
                 <article class="sobre-div">
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At enim autem iure distinctio. Neque aliquam dolor veritatis voluptas optio architecto distinctio dolorum quam perspiciatis laboriosam. Voluptas consequuntur quae esse obcaecati quo adipisci ratione exercitationem natus omnis delectus assumenda tenetur reiciendis modi minus, possimus accusamus distinctio similique, consectetur, soluta nisi eligendi amet minima ut? Repellat, modi aut facilis nulla autem amet accusantium eligendi nam eum, blanditiis, voluptas fuga impedit. Sunt quibusdam sit explicabo quisquam corporis provident? In doloremque deserunt, quod voluptas quos esse quasi, excepturi perferendis dolor, quas earum? Corrupti quae et illum debitis nesciunt vero velit cum ipsam explicabo repellat?</p>
-
-                    <img src="assets/img/Group 2Quadrados.png" alt="Quadrados roxos" width="500" height="500">
                 </article>
 
             </section>
         </section>
 
+        <!-- Habilidades -->
+        <section class="container">
+            <section class="habil" id="habil">
+                <h1>HABILIDADES</h1>
+                <!-- HTML, CSS, JS, MYSQL, PHP, C# -->
+            </section>
+        </section>
+
         <section class="container">
             <section class="trabalhos" id="trabalhos">
-                <div class="trab-div">
+                <h1>TRABALHOS</h1>
 
-                    <div class="trab-div2">
-                        <img src="assets/img/Group 3.png" alt="barras" width="50" height="50">
-                        <h1>TRABALHOS FEITOS</h1>
-                    </div>
+                <ul class="projetos">
+                    <li>
+                        <a href="" class="proj-container" target="_blank">
+                            <img src="assets/img/projetos/DehumanosCadastro.png" alt="Imagem do site" class="proj-img">
+                            <p>Dehumanos - Cadastro</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="" target="_blank">
+                            <img src="assets/img/projetos/Gft.png" alt="Imagem do site" class="proj-img">
+                            <p>Dehumanos GFT</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="" target="_blank">
+                            <img src="assets/img/projetos/Dehumanos.png" alt="" class="proj-img">
+                            <p>Dehumanos</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="" target="_blank">
+                            <img src="assets/img/projetos/dehumanosSistema.png" alt="" class="proj-img">
+                            <p>Dehumanos - Sistema</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="" target="_blank">
+                            <img src="assets/img/projetos/urbantech.png" alt="" class="proj-img">
+                            <p>Urbantech</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="" target="_blank">
+                            <img src="assets/img/projetos/condominio.png" alt="" class="proj-img">
+                            <p>Sistema Condomínio Serra Verde</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="proj-container" href="" target="_blank">
+                            <img src="assets/img/projetos/Splash.png" alt="" class="proj-img">
+                            <p>Splash Cascavel</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </section>
 
-                    <a href="">TODOS</a>
-                </div>
-
-                <div class="projetos">
-                    <div class="proj-container">
-                        <img src="" alt="">
-                        <p>Dehumanos - Cadastro</p>
-                        <a href="" target="_blank">Ver Projeto</a>
-                    </div>
-                    <div class="proj-container">
-                        <img src="" alt="">
-                        <p>Dehumanos GFT</p>
-                        <a href="" target="_blank">Ver Projeto</a>
-                    </div>
-                    <div class="proj-container">
-                        <img src="" alt="">
-                        <p>Dehumanos</p>
-                        <a href="" target="_blank">Ver Projeto</a>
-                    </div>
-                    <div class="proj-container">
-                        <img src="" alt="">
-                        <p>Sistema Condomínio Serra Verde</p>
-                        <a href="" target="_blank">Ver Projeto</a>
-                    </div>
-                    <div class="proj-container">
-                        <img src="" alt="">
-                        <p>Urbantech</p>
-                        <a href="" target="_blank">Ver Projeto</a>
-                    </div>
-                </div>
+        <!-- contato -->
+        <section class="container">
+            <section class="contato">
+                <h1>Contato</h1>
             </section>
         </section>
     </main>
     <footer>
         <div id="contato" class="footer-container">
             <div class="footer-icons">
-                <i class="fa-brands fa-instagram"><a href="#"></a></i>
-                <i class="fa-brands fa-bluesky"><a href="#"></a></i>
+                <a href="#"></a><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"></a><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://github.com/rogeriofilhoO" target="_blank"><i class="fa-brands fa-github"></i></a>
             </div>
             <p>© 2024 Rogerio Filho, All rights reserved.</p>
         </div>
