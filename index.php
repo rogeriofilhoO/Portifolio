@@ -29,12 +29,20 @@
     </header>
     <main>
         <section class="container">
-            <section class="Banner crosshair" id="home">
-                <article class="banner-div link-effect-14">
-                    <p>Oi sou o Rogerio,</p>
-                    <h1>Desenvolvedor <br>FRONT END</h1>
-                    <a href="#sobre"><span>SOBRE</span></a>
-                </article>
+            <section class="Banner" id="home">
+                <div class="ring">
+                    <i class="aro" style="--clr:#7102DC;"></i>
+                    <i class="aro" style="--clr:#fff;"></i>
+                    <i class="aro" style="--clr:#2870ff;"></i>
+
+                    <article class="banner-div">
+                        <p>Oi sou o Rogerio,</p>
+                        <h1>Desenvolvedor <br><strong style="color:#2870ff">FRONT END</strong></h1>
+                        <a href="#sobre">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </a>
+                    </article>
+                </div>
             </section>
         </section>
 
@@ -43,7 +51,7 @@
                 <h1>SOBRE MIM</h1>
 
                 <article class="sobre-div">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At enim autem iure distinctio. Neque aliquam dolor veritatis voluptas optio architecto distinctio dolorum quam perspiciatis laboriosam. Voluptas consequuntur quae esse obcaecati quo adipisci ratione exercitationem natus omnis delectus assumenda tenetur reiciendis modi minus, possimus accusamus distinctio similique, consectetur, soluta nisi eligendi amet minima ut? Repellat, modi aut facilis nulla autem amet accusantium eligendi nam eum, blanditiis, voluptas fuga impedit. Sunt quibusdam sit explicabo quisquam corporis provident? In doloremque deserunt, quod voluptas quos esse quasi, excepturi perferendis dolor, quas earum? Corrupti quae et illum debitis nesciunt vero velit cum ipsam explicabo repellat?</p>
+                    <p>Sou Desenvolvedor Front-End e tenho experiencia com landing pages e sistemas de gestão utilizando bancos de dados. Fiz estágio na empresa Wa Web Design. Alguns dos meus hobbes são: ouvir musica, jogar e criar jogos. </p>
                 </article>
 
             </section>
@@ -54,6 +62,29 @@
             <section class="habil" id="habil">
                 <h1>HABILIDADES</h1>
                 <!-- HTML, CSS, JS, MYSQL, PHP, C# -->
+                <ul class="linguas">
+                    <li>
+                        <i class="fa-brands fa-html5"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-css3-alt"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-square-js"></i>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-database"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-php"></i>
+                    </li>
+                    <li>
+                        <i class="fa-brands fa-figma"></i>
+                    </li>
+                    <li>
+                        <img src="assets/img/c-sharp.png" alt="Língua C#" width="90" height="90">
+                    </li>
+                </ul>
             </section>
         </section>
 
@@ -75,7 +106,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="proj-container" href="" target="_blank">
+                        <a class="proj-container" href="https://www.dehumanos.com.br/" target="_blank">
                             <img src="assets/img/projetos/Dehumanos.png" alt="" class="proj-img">
                             <p>Dehumanos</p>
                         </a>
@@ -87,19 +118,19 @@
                         </a>
                     </li>
                     <li>
-                        <a class="proj-container" href="" target="_blank">
+                        <a class="proj-container" href="https://urbantech.com.br/" target="_blank">
                             <img src="assets/img/projetos/urbantech.png" alt="" class="proj-img">
                             <p>Urbantech</p>
                         </a>
                     </li>
                     <li>
-                        <a class="proj-container" href="" target="_blank">
+                        <a class="proj-container" href="https://condserraverdelimeira.com.br/" target="_blank">
                             <img src="assets/img/projetos/condominio.png" alt="" class="proj-img">
                             <p>Sistema Condomínio Serra Verde</p>
                         </a>
                     </li>
                     <li>
-                        <a class="proj-container" href="" target="_blank">
+                        <a class="proj-container" href="https://splashcascavel.com.br" target="_blank">
                             <img src="assets/img/projetos/Splash.png" alt="" class="proj-img">
                             <p>Splash Cascavel</p>
                         </a>
@@ -112,6 +143,9 @@
         <section class="container">
             <section class="contato">
                 <h1>Contato</h1>
+                <article>
+
+                </article>
             </section>
         </section>
     </main>
