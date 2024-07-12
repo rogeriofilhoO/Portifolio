@@ -143,8 +143,19 @@
         <section class="container">
             <section class="contato">
                 <h1>Contato</h1>
-                <article>
-
+                <article class="contato-container">
+                    <div class="contato-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <a href="">67-992997684</a>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fa-regular fa-envelope"></i>
+                        <a href="">rogerio.rhty@outlook.com</a>
+                    </div>
+                    <div class="contato-item">
+                        <i class="fa-brands fa-linkedin outro"></i>
+                        <a href="">Rogerio Filho</a>
+                    </div>
                 </article>
             </section>
         </section>
@@ -152,9 +163,10 @@
     <footer>
         <div id="contato" class="footer-container">
             <div class="footer-icons">
-                <a href="#"></a><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"></a><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
                 <a href="https://github.com/rogeriofilhoO" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin outro2"></i></a>
             </div>
             <p>© 2024 Rogerio Filho, All rights reserved.</p>
         </div>
