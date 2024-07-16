@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio Rogerio Filho</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/all.css">
+    <title>Portifólio Rogerio Filho</title>
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- Icones -->
     <script src="https://kit.fontawesome.com/19ce1ec299.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        <nav>
-            <div class="container">
-                <div class="nav-container">
-                    <h1 class="nav-title"><a href="index.php">PORTIFÓLIO</a></h1>
-                    <div>
-                        <a href="#home" class="nav-itens">Home</a>
-                        <a href="#sobre" class="nav-itens">Sobre</a>
-                        <a href="#trabalhos" class="nav-itens">Trabalhos</a>
-                        <a href="#contato" class="nav-itens">Contato</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+        <section class="nav-section">
+            <article class="container">
+                <article class="nav-container">
+                    <h1 class="nav-title"><a href="index.php">ROGERIO FILHO</a></h1>
+                    <nav class="nav-menu">
+                        <a href="#home" onclick="fecharMenu();" class="nav-itens">Home</a>
+                        <a href="#sobre" onclick="fecharMenu();" class="nav-itens">Sobre</a>
+                        <a href="#trabalhos" onclick="fecharMenu();" class="nav-itens">Trabalhos</a>
+                        <a href="#contato" onclick="fecharMenu();" class="nav-itens">Contato</a>
+                    </nav>
+                    <button class="button-hamburguer" onclick="abrirMenu();"><i class="fa-solid fa-bars"></i></button>
+                </article>
+            </article>
+        </section>
     </header>
     <main>
         <section class="container">
@@ -82,7 +85,7 @@
                         <i class="fa-brands fa-figma"></i>
                     </li>
                     <li>
-                        <img src="assets/img/c-sharp.png" alt="Língua C#" width="90" height="90">
+                        <img src="assets/img/c-sharp.svg" alt="Língua C#" width="90" height="90">
                     </li>
                 </ul>
             </section>
@@ -94,13 +97,13 @@
 
                 <ul class="projetos">
                     <li>
-                        <a href="" class="proj-container" target="_blank">
+                        <a href="https://www.dehumanos.com.br/cadastro" class="proj-container" target="_blank">
                             <img src="assets/img/projetos/DehumanosCadastro.png" alt="Imagem do site" class="proj-img">
                             <p>Dehumanos - Cadastro</p>
                         </a>
                     </li>
                     <li>
-                        <a class="proj-container" href="" target="_blank">
+                        <a class="proj-container" href="https://www.dehumanos.com.br/gft" target="_blank">
                             <img src="assets/img/projetos/Gft.png" alt="Imagem do site" class="proj-img">
                             <p>Dehumanos GFT</p>
                         </a>
@@ -112,7 +115,7 @@
                         </a>
                     </li>
                     <li>
-                        <a class="proj-container" href="" target="_blank">
+                        <a class="proj-container" href="https://www.dehumanos.com.br/sistema" target="_blank">
                             <img src="assets/img/projetos/dehumanosSistema.png" alt="" class="proj-img">
                             <p>Dehumanos - Sistema</p>
                         </a>
@@ -146,15 +149,15 @@
                 <article class="contato-container">
                     <div class="contato-item">
                         <i class="fa-solid fa-phone"></i>
-                        <a href="">67-992997684</a>
+                        <a href="https://wa.me/5567992997684?text=Entrando%20em%20Contato...">67-992997684</a>
                     </div>
                     <div class="contato-item">
                         <i class="fa-regular fa-envelope"></i>
-                        <a href="">rogerio.rhty@outlook.com</a>
+                        <a href="mailto:rogerio.rhty@outlook.com">rogerio.rhty@outlook.com</a>
                     </div>
                     <div class="contato-item">
                         <i class="fa-brands fa-linkedin outro"></i>
-                        <a href="">Rogerio Filho</a>
+                        <a href="https://www.linkedin.com/in/rogerio-filho-1436b9319/" target="_blank">Rogerio Filho</a>
                     </div>
                 </article>
             </section>
@@ -163,14 +166,16 @@
     <footer>
         <div id="contato" class="footer-container">
             <div class="footer-icons">
-                <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/rogerio__filho0/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/5567992997684?text=Entrando%20em%20Contato..."><i class="fa-brands fa-whatsapp"></i></a>
                 <a href="https://github.com/rogeriofilhoO" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin outro2"></i></a>
+                <a href="https://www.linkedin.com/in/rogerio-filho-1436b9319/" target="_blank"><i class="fa-brands fa-linkedin outro2"></i></a>
             </div>
             <p>© 2024 Rogerio Filho, All rights reserved.</p>
         </div>
     </footer>
+
+    <script async src="assets/js/script.js"></script>
 </body>
 
 </html>
